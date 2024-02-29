@@ -2,7 +2,10 @@ provider "aws" {
   region = "eu-west-2" # London region
 }
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "terraform-up-and-running-state-jamal" 
+  bucket = "project" 
+}
+resource "aws_s3_bucket" "terraform_state" {
+  bucket = "project" 
 }
 resource "aws_instance" "test5" {
   ami           = "ami-0903ff18cc3c8e341" # Replace with the desired Amazon Linux 2 AMI for eu-west-2 (bitnami image)
