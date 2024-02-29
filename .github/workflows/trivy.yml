@@ -52,4 +52,4 @@ jobs:
         scan-ref: '.'
         hide-progress: false
         format: 'table'
-        ignore-unfixed: truE
+        ignore-unfixed: true
