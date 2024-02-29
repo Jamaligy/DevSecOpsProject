@@ -1,7 +1,7 @@
 provider "aws" {
   region = "eu-west-2" # London region
 }
-resource "aws_s3_bucket" "project2" {
+resource "aws_s3_bucket" "project90" {
   bucket = "project" 
 }
 resource "aws_instance" "test5" {
