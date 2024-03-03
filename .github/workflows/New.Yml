@@ -1,4 +1,4 @@
-name: Pull Docker Image and Scan with Trivy
+name: Pull Docker Image and Scan with Trivy 
 on:
   push:
     branches:
