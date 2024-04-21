@@ -3,7 +3,7 @@
 This document outlines a DevSecOps project implementation incorporating Static Application Security Testing (SAST), Software Composition Analysis (SCA), and Infrastructure as Code (IaC) scanning best practices on applications running within AWS infrastrcuture, utilising GitHub Actions.
 ## Project Goals
 - Implement security measures throughout the software development lifecycle, creating a Secure Software Development Life Cycle (SSDLC).
-- Automate security testing to identify vulnerabilities early in the development process, shifting security left.
+- Automate security testing to identify vulnerabilities early in the development process, shifting security left
 - Integrate security into the CI/CD pipeline for continuous security monitoring.
 - Ensure compliance with security best practices and industry standards.
 - Enable PR blocking for Critical and High Vulnerabilities.
